@@ -1,7 +1,7 @@
 ## Autor: Delfina Maria Molter
 
 ### PAGE
-- https://delfinamolter.github.io/Trabajo-Integrador-Fronten1/
+https://delfinamolter.github.io/Trabajo-Integrador-Fronten1/
 
 ### Dificultades:
 
