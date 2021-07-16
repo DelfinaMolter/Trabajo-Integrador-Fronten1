@@ -1,0 +1,120 @@
+@media (min-width: 800px){
+    body {
+        background-image: url(../img/bg-tablet-pattern.svg), url(../img/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-position: 125% -10%, -70% 70%;
+    }
+
+    /*---------- HEADER ---------------*/
+    header{
+        justify-content: space-evenly;
+        margin: 50px 0px;
+    }
+    .hide-mov{
+        display:block;
+    }
+    .hide-desk{
+        display:none;
+    }
+    header nav ul li a:hover{
+        text-decoration: none;
+        color: rgb(180, 180, 180);
+    }
+    button:hover{
+        cursor: pointer;
+        background-color:rgb(252, 152, 121);
+    }
+
+    /*---------- MAIN ---------------*/
+    h1{
+        font-size:55px; 
+    }
+    h2{
+        font-size:35px;
+    }
+    h3{
+        font-size:18px;
+    }
+    .main-bottom nav ul li a:hover{
+        background-color:rgb(242, 95, 58);
+    }
+
+    main .main-top{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content:center;
+    }
+    main .main-top article{
+        align-items:flex-start;
+    }
+    main .main-top article h1, main .main-top article p, main .main-middle-note h2, main .main-middle-note p {
+        text-align:left;
+    }
+    main .main-top article p, main .main-middle-note p {
+        color:#000000;
+        font-weight:500;
+    }
+    main .main-middle{
+        display:flex;
+        flex-direction:row;
+    }
+    .main-middle-note{
+        margin-right: 30px;
+    }
+    main .main-middle .point p{
+        padding-left: 70px;
+    }
+
+
+/*---------- Experiencias ---------------*/
+
+/*No pude poner los slide uno al lado del otro */
+
+.main-bottom nav ul li{
+    display:none;
+}
+
+
+/*---------- FOOTER ---------------*/
+
+footer .footer-top {
+    background-image: url("../img/bg-simplify-section-desktop.svg");
+    background-repeat: no-repeat;
+
+}
+section.footer-top button:hover{
+    color: rgb(250, 176, 158);
+}
+footer section.footer-bottom div a:hover {
+    color: rgb(242, 95, 58);
+}
+footer .footer-top{
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer section.footer-bottom{
+    position: relative;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+.footer-bottom p{
+    position:absolute;
+    bottom:7px;
+    right:25px;
+}
+footer .footer-bottom form{
+    margin: 7px 30px;
+}
+.footer-bottom-social{
+    flex-direction: column-reverse;
+}
+.footer-bottom .logo-footer{
+    margin:10px 20px 50px;
+}
+.footer-nav-izq{
+    margin-right: 40px;
+}
+
+}

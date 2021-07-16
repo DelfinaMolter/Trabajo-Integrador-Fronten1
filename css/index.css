@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+@import url('header.css');
+@import url('footer.css');
+@import url('queries.css');
+
+
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+main section {
+
+    margin-bottom: 70px;
+}
+main article{
+    padding: 10px;
+}
+.main-top{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.main-top img{
+    width:90vw;
+    max-width: 450px;
+}
+.main-top article{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+h1, h2, h3{
+    font-weight: 700;
+    text-align: center;
+    color:#232C50;
+}
+h1{
+    font-size:45px;
+}
+h2{
+    font-size:27px;
+}
+h3{
+    font-size:16px;
+}
+p{
+    text-align: center;
+    margin: 10px 0px;
+    color:#B3B2B7;
+    line-height: 1.75rem;
+}
+
+
+main .main-middle-note, main .main-top-message{
+    max-width: 400px;
+    margin:20px;
+}
+main .point{
+    max-width: 500px;
+}
+.main-middle .point h3{
+    text-align: left;
+    margin: 30px 20px;
+    border-radius: 40px;
+    background-color: rgb(253, 230, 223);
+    padding: 7px 0px;
+}
+.main-middle .point span{
+    background-color: rgb(242, 95, 58);
+    color: white;
+    border:none;
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.main-middle .point p{
+    text-align: left;
+    margin:10px 20px;
+}
+.main-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+
+
+.main-bottom article{
+    display: flex;
+    position: relative;
+    height:325px;
+    width:95vw;
+    max-width:400px;
+}
+.main-bottom article div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #FAFAFA;
+    margin: 45px 5px;
+    padding: 55px 10px 10px;
+    position: relative;
+    width:95%;
+    min-height:270px ;
+
+}
+.main-bottom article div img{
+    width:70px;
+    height: 70px;
+    position: absolute;
+    top:-30px;
+}
+/* Segunda dificultad superada, notas en README.md *2* */
+.main-bottom .slide-track div{
+    opacity:0;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.main-bottom .slide-track div:first-child{
+    opacity:1;
+}
+.main-bottom .slide-track div:target{
+    opacity:1;
+}
+.main-bottom nav ul li{
+    padding:5px;
+}
+.main-bottom nav ul li a{
+    display: inline-block;
+    width:10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 1px solid;
+    color: rgb(242, 95, 58);
+}
+/*
+
+-------no pude hacer que se mantenga naranja cuando esta cliqueado ese slide-------
+.main-bottom nav ul li a:visited{
+    background-color:rgb(242, 95, 58);
+}
+*/
