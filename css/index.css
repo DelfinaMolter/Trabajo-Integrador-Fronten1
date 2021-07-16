@@ -116,7 +116,7 @@ main .point{
 /* Segunda dificultad superada, notas en README.md *2* */
 .main-bottom .slide-track div{
     opacity:0;
-    transition: all 0.5s;
+    transition: opacity 0.5s;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -138,10 +138,10 @@ main .point{
     border: 1px solid;
     color: rgb(242, 95, 58);
 }
+.main-bottom nav ul li a:target{
+    background-color:rgb(242, 95, 58);
+}
 /*
 
 -------no pude hacer que se mantenga naranja cuando esta cliqueado ese slide-------
-.main-bottom nav ul li a:visited{
-    background-color:rgb(242, 95, 58);
-}
 */
